@@ -15,7 +15,7 @@ public class Example2Collection {
         stringList.add("trzy");
         stringList.add("cztery");
 
-        //Iteracja na obkietach umieszczonych w tablicy
+        //Iteracja na obiektach umieszczonych w tablicy
         for (String string : strings) {
             System.out.println(string);
         }
