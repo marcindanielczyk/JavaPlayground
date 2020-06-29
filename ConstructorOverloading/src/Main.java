@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //moze zamiast public nie byc niczego, czemu
+        //moze zamiast public nie byc niczego
         class Tv {
             private String modelName;
             private long serialNumber;
