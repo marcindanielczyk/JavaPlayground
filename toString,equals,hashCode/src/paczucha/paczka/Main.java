@@ -147,9 +147,9 @@ public class Main {
 
         Modyfikatory innafigura = new Modyfikatory();
         innafigura.setA(5);
-        Modyfikatory.getA();
-
-        Modyfikatory.setB(13);
+//        Modyfikatory.getA();
+//
+//        Modyfikatory.setB(13);
 
 
         System.out.println(kwadrat.pomnoz1("kwadrat"));

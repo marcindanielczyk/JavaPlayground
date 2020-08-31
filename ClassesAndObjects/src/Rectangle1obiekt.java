@@ -8,9 +8,9 @@ public class Rectangle1obiekt {
     //metody egzemplarza (obiektu)
     public int getArea() {
         return width * height;
-
-        public void setWidth ( int width){
+    }
+        public void setWidth(int width){
             this.width = width;
         }
-    }
+
 }

@@ -2,7 +2,7 @@
 
 import org.w3c.dom.ls.LSOutput;
 
-public class Rectangle2klasa {
+/*public class Rectangle2klasa {
     //Aby wywołać pole lub metodę statyczną musimy odwołać się do niej poprzez nazwę klasy.
     int userAmount = User.personCounter;
     double randomId = User.generateRanodomUserId();
@@ -14,7 +14,7 @@ public class Rectangle2klasa {
     }
 
     //Sposób deklarowania metod statycznych
-    public class Rectangle {
+    public class Rectangle2 {
         public static double generateRandomRectangleId(){
             return Math.random() * 9999 + 1;
         }
@@ -22,4 +22,4 @@ public class Rectangle2klasa {
     }
 
 
-}
+}*/

@@ -11,7 +11,6 @@ public class Car extends Vehicle {
     public int getNumberOfSeats() {
         return this.numberOfSeats;
     }
-
     public String getLicensePlate() {
         return this.licensePlate;
     }
@@ -55,7 +54,7 @@ class MyClass {
     }
 
 }
-public class MySubclass extends MyClass {
+ class MySubclass extends MyClass {
 
     public static void main(String[] args) {
         MySubclass subclass = new MySubclass();

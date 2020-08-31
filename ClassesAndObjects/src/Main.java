@@ -1,6 +1,6 @@
 
 
-public class Main {
+/*public class Main {
 
     public static void main(String[] args) {
         User firstUser = new User("Jan", "Kowalski");
@@ -10,4 +10,4 @@ public class Main {
         secondUser.printFullName();
 
     }
-}
+}*/
