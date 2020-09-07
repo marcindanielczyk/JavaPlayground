@@ -24,6 +24,6 @@ public class Example2Collection {
         for (String string : stringList) {
             System.out.println(string);
         }
-        
+
     }
 }

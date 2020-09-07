@@ -44,9 +44,7 @@ public class Main {
         for(int liczby2:intSet){
             System.out.println(liczby2);
         }
-        //Zrobiłem ale nie przez foreach tylko przez addAll
 
-  //2.Zadanie
 
 
 

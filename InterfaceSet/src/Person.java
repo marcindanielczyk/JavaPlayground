@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.List;
+
 
 class Person implements Comparable{
 
@@ -29,13 +26,16 @@ class Person implements Comparable{
 
         return this.lastName.compareTo(person.getLastName());
     }
+    public void setFirstName(String firstname) { this.firstName = firstname; }
+
+    public void setLastName(String lastname) { this.lastName = lastname; }
 
     public String getFirstName(){
-        return firstName;
+        return this.firstName;
     }
 
     public String getLastName(){
-        return lastName;
+        return this.lastName;
     }
 
     @Override

@@ -10,8 +10,7 @@ public class Example3CollectionSet {
     public static void main(String[] args) {
 
         //Dodanie elementów do kolekcji
-        Set<String> strings = new HashSet<>();//czemu HashSet<>(), i jbc to HashSet nie zachowuje porządku jak widac
-        //i czemu tak dziwnie Set<String>
+        Set<String> strings = new HashSet<>();
         strings.add("Jeden");
         strings.add("Dwa");
         strings.add("Dwa");

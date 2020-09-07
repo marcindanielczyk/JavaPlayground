@@ -1,5 +1,4 @@
-import paczucha.Car;//wystarczy ze dam paczucha.Car,
-// bo Car jest klasą ktora zawiera reszte klas?
+import example.Car;
 
 public class Main {
 

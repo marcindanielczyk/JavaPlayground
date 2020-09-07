@@ -26,7 +26,7 @@ public class Main {
             System.out.println("wojewodztwo= " + i);
         }
 
-        //do 3 zadania chyba trzeba wykorzystac interfejs typu map czy cos
+        //do 3 zadania chyba trzeba wykorzystac interfejs
 
         EnumMap<AmerykaPlnPanstwa, String> enumowaMapa = new EnumMap<>(AmerykaPlnPanstwa.class);
         enumowaMapa.put(AmerykaPlnPanstwa.ANTIGUA_I_BARBUDA, "StolicaAntigua");
@@ -76,7 +76,7 @@ public class Main {
     }
 
     private static String zwrocStolicePoleKlasy(AmerykaPlnPanstwa panstwo) {
-// Kotlinowski  val example: String = if (true) "wartosc jest true" else "wartosc jest false";
+// Kotlin  val example: String = if (true) "wartosc jest true" else "wartosc jest false";
         String value;
         if (true) {
             value = "wartosc jest true";

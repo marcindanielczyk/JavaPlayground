@@ -1,7 +1,5 @@
 package pakietdoimportustatycznego;
 
-import static java.lang.String.copyValueOf;
-
 public class Door {
     public int height;
     public int width;
@@ -28,13 +26,9 @@ public class Door {
         return window;
     }
 
-    //uzycie klasy w obrebie tego samego pakietu
+
     public void setWindow(Window window) {
         this.window = window;
     }
 
-    //statyczna metoda wymaga importu statycznego
-//    public char policz(){
-//        return copyValueOf(chars);
-//    }
 }

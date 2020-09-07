@@ -1,26 +1,27 @@
-/*
-import static java.beans.WeakIdentityMap.getIndex;
+
 
 // Przykład błędu programisty, ukrywanie wystąpienia wyjątku
-public class UkrywanieWyjątku {
+
+/*public class UkrywanieWyjątku {
     try{
         int index = getIndex(strings, next);
         System.out.println("Wyraz o indeksie " + index + " to '" + strings[index] + "'");
     } catch (Exception ex) {
 
     }
-}
+}*/
 
 // Prawidłowa minimalna obsługa wyjątku, wyświetlenie na konsoli błędu
-public class UkrywanieWyjątku {
+
+/*public class UkrywanieWyjątku {
     try {
         int index = getIndex(strings, next);
         System.out.println("Wyraz o indeksie " + index + " to '" + strings[index] + "'");
     } catch (Exception ex) {
         ex.printStackTrace();
     }
-}
-*/
+}*/
+
 
     /*                                                                          Dobre praktyki
             Na sam koniec rozdziału z wyjątkami przedstawimy Ci kilka dobrych praktyk pracy z wyjątkami:

@@ -1,4 +1,3 @@
-import static java.util.logging.Logger.global;
 
 public class Main {
 
